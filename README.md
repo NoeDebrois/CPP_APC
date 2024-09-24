@@ -5,4 +5,25 @@ This repository is linked to the course **Algorithms and Parallel Computing in C
 ## Program of this course :
 
 This is a 10-credit course for graduate students. The main topics taught in this course are :
-- test
+- Object-Oriented Programming Introduction & C++ :
+  - ⁠C++ vs. C
+  - ⁠Pointers and References
+  - ⁠Classes & Constructors
+  - ⁠Complexity of Algorithms
+  - ⁠Destructor. Copy constructor
+  - ⁠Streams
+  - ⁠Inheritance & Polymorphism
+  - ⁠Smart pointers
+  - ⁠Overloading method and operators
+  - ⁠Template functions and template classes⁠
+  - STL
+- Parallel Programming:
+  - ⁠Introduction to Parallel Programming
+  - ⁠Flynn’s taxonomy
+  - Performance and speedup MPI
+- Introduction to MPI :
+  - ⁠Bash shell, compiling & linking
+  - ⁠MPI
+  - data types
+  - Point-to-point and collective communication
+  - Examples of algorithm parallelization
