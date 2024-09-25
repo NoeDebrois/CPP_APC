@@ -1,5 +1,3 @@
-EXPLAIN HOW TO PUSH STUFF HERE (execute in its own project and then copy paste to CPP_APC and add, commit, push).
-
 ## What is this repository ?
 
 This repository is linked to the course **Algorithms and Parallel Computing in C++** I am currently following (first semester of academic year 2024/2025). This is part of my **MSc Mathematical Engineering** from Politecnico di Milano. I will push some projects I worked on during this course. First you will find some C++ pieces of code and then some pieces of code related to parallel computing.
@@ -29,3 +27,7 @@ This is a 10-credit course for graduate students. The main topics taught in this
   - data types
   - Point-to-point and collective communication
   - Examples of algorithm parallelization
+
+## How to push :
+
+Code inside your project (inside their own directories) and when it is finished, copy-paste to CPP_APC directory (on my computer) and then add, commit, push. That way, no problem of CMAKE list and stuff.
