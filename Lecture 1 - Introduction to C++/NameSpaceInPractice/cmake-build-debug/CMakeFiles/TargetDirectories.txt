@@ -1,0 +1,3 @@
+/Users/noedebrois/CLionProjects/NameSpaceInPractice/cmake-build-debug/CMakeFiles/NameSpaceInPractice.dir
+/Users/noedebrois/CLionProjects/NameSpaceInPractice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/noedebrois/CLionProjects/NameSpaceInPractice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
