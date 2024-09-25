@@ -30,4 +30,4 @@ This is a 10-credit course for graduate students. The main topics taught in this
 
 ## How to push :
 
-Code inside your project (inside their own directories) and when it is finished, copy-paste to CPP_APC directory (on my computer) and then add, commit, push. That way, no problem of CMAKE list and stuff.
+Code inside your projects (inside their own directories) and when they are finished, copy-paste to CPP_APC directory (on my computer) and then add, commit, push. That way, no problem of CMAKE list and stuff.
