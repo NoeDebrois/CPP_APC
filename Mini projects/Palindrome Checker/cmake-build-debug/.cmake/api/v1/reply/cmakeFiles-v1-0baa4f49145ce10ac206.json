@@ -1223,8 +1223,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/noedebrois/CLionProjects/CPP_APC/cmake-build-debug",
-		"source" : "/Users/noedebrois/CLionProjects/CPP_APC"
+		"build" : "/Users/noedebrois/CLionProjects/CPP_APC/Mini projects/Palindrome Checker/cmake-build-debug",
+		"source" : "/Users/noedebrois/CLionProjects/CPP_APC/Mini projects/Palindrome Checker"
 	},
 	"version" : 
 	{
