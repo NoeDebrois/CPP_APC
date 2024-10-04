@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PriceDeviationV4",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PriceDeviationV4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PriceDeviationV4-Debug-b040959a83e53c056365.json",
+					"name" : "PriceDeviationV4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/noedebrois/Desktop/Desktop - No\u00e9\u2019s MacBook Air/Politecnico/Algorithms and Parallel Computing/Exercises/Ex1/solution/PriceDeviationV4/cmake-build-debug",
+		"source" : "/Users/noedebrois/Desktop/Desktop - No\u00e9\u2019s MacBook Air/Politecnico/Algorithms and Parallel Computing/Exercises/Ex1/solution/PriceDeviationV4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
