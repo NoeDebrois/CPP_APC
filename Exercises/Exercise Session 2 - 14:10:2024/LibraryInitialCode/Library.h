@@ -14,7 +14,7 @@
 class Library {
 
 private:
-  // books;
+  std::vector<Book> books; // Best option we have at the moment : don't use C-style arrays
 
   // Private methods already declared :
 
@@ -37,6 +37,8 @@ public:
   // Return false if the code is not found/the book is available
   // return true otherwise
   bool return_book(unsigned code);
+
+  int find_by_code(unsigned code);
 
   void print() const;
 

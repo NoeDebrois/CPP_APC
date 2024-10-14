@@ -22,11 +22,11 @@ unsigned Book::getPages() const {
     return pages;
 }
 
-std::string &Book::getAuthor() const {
+const std::string& Book::getAuthor() const {
     return author;
 }
 
-std::string &Book::getTitle() const {
+const std::string& Book::getTitle() const {
     return title;
 }
 
@@ -45,16 +45,16 @@ bool Book::equalTo(const std::string& rhs_author, const std::string& rhs_title) 
 }
 
 void Book::print() const {
-    std::cout << code << "\n"
-    << author << "\n"
-    << title << "\n"
-    << pages << "\n"
-    << year << "\n";
+    std::cout << "Code : " << code << "\n"
+    << "Author : " << author << "\n"
+    << "Title : " << title << "\n"
+    << "Pages : " << pages << "\n"
+    << "Year : " << year << "\n";
 
     if (available) {
-        std::cout << "Available";
+        std::cout << "Available\n";
     } else {
-        std::cout << "Not available";
+        std::cout << "Not available\n";
         std::cout << std::endl;
     }
 }

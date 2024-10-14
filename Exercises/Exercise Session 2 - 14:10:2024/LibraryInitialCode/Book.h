@@ -18,13 +18,13 @@ private:
   unsigned code;
   unsigned year;
   unsigned pages;
-  std::string &author;
-  std::string &title;
+  std::string author;
+  std::string title;
   bool available;
 
 public:
   // Constructor :
-  Book(unsigned c, unsigned y, unsigned p, std::string & a, std::string & t):
+  Book(unsigned c, unsigned y, unsigned p, const std::string& a, const std::string& t):
   // Let's consider that a book, by default, is always available. That's why we don't add "bool a".
   code(c), year(y), pages(p), author(a), title(t), available(true)
   {} // We did everything we wanted so : empty constructor.
@@ -42,8 +42,8 @@ public:
   unsigned getYear() const;
   unsigned getPages() const;
 
-  std::string &getAuthor() const;
-  std::string &getTitle() const;
+  const std::string& getAuthor() const;
+  const std::string& getTitle() const;
   bool getAvailable() const;
 
   // We only have one setter :
