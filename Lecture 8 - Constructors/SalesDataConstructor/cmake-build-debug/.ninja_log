@@ -1,0 +1,6 @@
+# ninja log v6
+1	579	1729261593738282575	CMakeFiles/SalesDataConstructor.dir/Sales_data.cpp.o	508fc2e3a83f3eb2
+0	581	1729261593737953630	CMakeFiles/SalesDataConstructor.dir/main.cpp.o	3814662c2716c8ea
+581	700	1729261594318561586	SalesDataConstructor	dd60e55d3c5b179a
+6	558	1729261639892574033	CMakeFiles/SalesDataConstructor.dir/Sales_data.cpp.o	508fc2e3a83f3eb2
+558	654	1729261640444347219	SalesDataConstructor	dd60e55d3c5b179a

@@ -19,6 +19,6 @@ Sales_data::Sales_data(const std::string& s): Sales_data(s, 0,0)
 // Lipmann's implementation is more general, have a look to the book !!
 void Sales_data::print () const
 {
-  std::cout << "ISBN: " << bookNo << " unit solds: " << units_sold
-            << " revenue: " << revenue << std::endl;
+  std::cout << "ISBN: " << bookNo << " / unit solds: " << units_sold
+            << " / revenue: " << revenue << std::endl;
 }
