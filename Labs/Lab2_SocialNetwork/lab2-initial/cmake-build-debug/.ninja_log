@@ -1,0 +1,11 @@
+# ninja log v6
+2	760	1729541702662376282	CMakeFiles/social_network_initial.dir/social_network.cpp.o	1c79ff2a86bad1e7
+2	767	1729541702662751058	CMakeFiles/social_network_initial.dir/user.cpp.o	fde265271ba78187
+1	767	1729541702661179127	CMakeFiles/social_network_initial.dir/main.cpp.o	de633cb6258f0a0f
+767	894	1729541703427409250	social_network_initial	4ef0569234ef3fdb
+16	796	1729550890410141265	CMakeFiles/social_network_initial.dir/user.cpp.o	fde265271ba78187
+14	817	1729550890408973011	CMakeFiles/social_network_initial.dir/main.cpp.o	de633cb6258f0a0f
+6	713	1729551098513153012	CMakeFiles/social_network_initial.dir/social_network.cpp.o	1c79ff2a86bad1e7
+713	910	1729551099220193394	social_network_initial	4ef0569234ef3fdb
+7	794	1729551231636901679	CMakeFiles/social_network_initial.dir/main.cpp.o	de633cb6258f0a0f
+794	922	1729551232424035500	social_network_initial	4ef0569234ef3fdb
