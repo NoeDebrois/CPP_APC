@@ -1,0 +1,14 @@
+//
+// Created by Roberto Sala on 13/09/24.
+//
+
+#ifndef ASSIGNMENT1_2024_EIG_FINDER_HELPERS_H
+#define ASSIGNMENT1_2024_EIG_FINDER_HELPERS_H
+
+enum checkT {
+    INCREMENT,
+    RESIDUAL,
+    BOTH
+};
+
+#endif //ASSIGNMENT1_2024_EIG_FINDER_HELPERS_H
