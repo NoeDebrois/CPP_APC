@@ -10,6 +10,7 @@ namespace eigenvalue {
         // MY CODE :
         // Check that x0 is of norm 1 :
         std::vector<double>x = x0;
+        linear_algebra::normalize(x);
 
         double nu_new = 0; // what we will return
         double nu_old = 0;  // stores the old value of the eigenvalue
