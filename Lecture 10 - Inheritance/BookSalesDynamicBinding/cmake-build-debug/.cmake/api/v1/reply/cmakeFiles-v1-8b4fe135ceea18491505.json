@@ -1223,8 +1223,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/noedebrois/CLionProjects/CPP_APC/Lecture 10 - Inheritance/Sneaky/cmake-build-debug",
-		"source" : "/Users/noedebrois/CLionProjects/CPP_APC/Lecture 10 - Inheritance/Sneaky"
+		"build" : "/Users/noedebrois/CLionProjects/CPP_APC/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug",
+		"source" : "/Users/noedebrois/CLionProjects/CPP_APC/Lecture 10 - Inheritance/BookSalesDynamicBinding"
 	},
 	"version" : 
 	{
