@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MinRnInitial",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MinRnInitial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MinRnInitial-Debug-3bce3d7765b1ad4f7446.json",
+					"name" : "MinRnInitial",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise Session 5 - 28:10:2024/MinRnInitial/cmake-build-debug",
+		"source" : "/Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise Session 5 - 28:10:2024/MinRnInitial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
