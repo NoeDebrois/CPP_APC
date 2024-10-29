@@ -1,0 +1,8 @@
+# ninja log v6
+3	676	1730191330064961731	CMakeFiles/RootFinderInitial.dir/Newton.cpp.o	59bbbe6a563df224
+3	679	1730191330065526202	CMakeFiles/RootFinderInitial.dir/Robust.cpp.o	82c11d43ab2414d3
+1	679	1730191330063218446	CMakeFiles/RootFinderInitial.dir/Bisection.cpp.o	5740c6a119662a65
+4	680	1730191330065857976	CMakeFiles/RootFinderInitial.dir/RootFinder.cpp.o	636df3ed856e34d4
+4	696	1730191330066395865	CMakeFiles/RootFinderInitial.dir/Roots2.cpp.o	ec36d2e602cd5e99
+3	700	1730191330064809114	CMakeFiles/RootFinderInitial.dir/Function.cpp.o	2200deaeabc1c279
+700	827	1730191330761514967	RootFinderInitial	469c5a20e986b59b
