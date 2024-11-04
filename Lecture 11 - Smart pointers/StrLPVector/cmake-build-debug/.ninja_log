@@ -1,0 +1,4 @@
+# ninja log v6
+1	284	1730737242631985256	CMakeFiles/StrLPVectors.dir/StrLPVector.cpp.o	d8da6dd6be01f3df
+0	323	1730737242631703769	CMakeFiles/StrLPVectors.dir/main.cpp.o	b92215da44a5ed35
+323	356	1730737242954078617	StrLPVectors	c6157579df464167

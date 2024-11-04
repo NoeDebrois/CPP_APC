@@ -1,9 +1,0 @@
-# ninja log v6
-1	560	1727788550684910973	CMakeFiles/Test_Fct_With_Pointers.dir/main.cpp.o	c7c4abf45e04411c
-561	606	1727788551245380394	Test_Fct_With_Pointers	cd95b6138695a5d3
-4	646	1727789301832480355	CMakeFiles/Test_Fct_With_Pointers.dir/main.cpp.o	c7c4abf45e04411c
-646	769	1727789302473724874	Test_Fct_With_Pointers	cd95b6138695a5d3
-4	655	1727789590263804436	CMakeFiles/Test_Fct_With_Pointers.dir/main.cpp.o	c7c4abf45e04411c
-655	780	1727789590914308280	Test_Fct_With_Pointers	cd95b6138695a5d3
-4	642	1727789777432164674	CMakeFiles/Test_Fct_With_Pointers.dir/main.cpp.o	c7c4abf45e04411c
-642	767	1727789778069588747	Test_Fct_With_Pointers	cd95b6138695a5d3

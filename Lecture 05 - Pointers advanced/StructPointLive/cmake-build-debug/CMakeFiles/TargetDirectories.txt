@@ -1,0 +1,3 @@
+/Users/noedebrois/CLionProjects/StructPointLive/cmake-build-debug/CMakeFiles/StructPointLive.dir
+/Users/noedebrois/CLionProjects/StructPointLive/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/noedebrois/CLionProjects/StructPointLive/cmake-build-debug/CMakeFiles/rebuild_cache.dir

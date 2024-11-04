@@ -1,3 +1,0 @@
-/Users/noedebrois/CLionProjects/CPP_APC/Lecture 6 9 - Classes/ClassScope/cmake-build-debug/CMakeFiles/ClassScope.dir
-/Users/noedebrois/CLionProjects/CPP_APC/Lecture 6 9 - Classes/ClassScope/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/noedebrois/CLionProjects/CPP_APC/Lecture 6 9 - Classes/ClassScope/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+# ninja log v6
+1	639	1729261109836317735	CMakeFiles/ConstOverload.dir/main.cpp.o	5e42b8135d5e038
+1	648	1729261109836584766	CMakeFiles/ConstOverload.dir/C.cpp.o	7ff8adb67dd006bd
+649	860	1729261110484356926	ConstOverload	b52ece5948995f91
+10	605	1729261414511900921	CMakeFiles/ConstOverload.dir/main.cpp.o	5e42b8135d5e038
+11	608	1729261414512659182	CMakeFiles/ConstOverload.dir/C.cpp.o	7ff8adb67dd006bd
+609	745	1729261415110146305	ConstOverload	b52ece5948995f91
