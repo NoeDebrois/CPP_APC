@@ -1,0 +1,10 @@
+# ninja log v6
+12	271	1730818465029158187	CMakeFiles/MatrixComputationInitialCode.dir/matrix.cpp.o	e7232a897b28a6ef
+11	578	1730818465027524307	CMakeFiles/MatrixComputationInitialCode.dir/block.cpp.o	923c26f9ab1716b4
+12	605	1730818465028701834	CMakeFiles/MatrixComputationInitialCode.dir/main.cpp.o	e94316aa4bd122f7
+5	566	1730818486984381044	CMakeFiles/MatrixComputationInitialCode.dir/block_matrix.cpp.o	35d8e2ba348f961f
+6	498	1730818635607943380	CMakeFiles/MatrixComputationInitialCode.dir/block.cpp.o	923c26f9ab1716b4
+8	510	1730818635609260651	CMakeFiles/MatrixComputationInitialCode.dir/main.cpp.o	e94316aa4bd122f7
+7	530	1730818635608485188	CMakeFiles/MatrixComputationInitialCode.dir/block_matrix.cpp.o	35d8e2ba348f961f
+5	446	1730818686945105046	CMakeFiles/MatrixComputationInitialCode.dir/dense_matrix.cpp.o	cce03928fc2d188a
+446	615	1730818687386205214	MatrixComputationInitialCode	b521d5723082981
