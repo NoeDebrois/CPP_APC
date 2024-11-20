@@ -1,0 +1,3 @@
+/Users/noedebrois/CLionProjects/CPP_APC/Exercise Notebook/Chapter 1 - From C to C++/cmake-build-debug/CMakeFiles/Chapter_1___From_C_to_C__.dir
+/Users/noedebrois/CLionProjects/CPP_APC/Exercise Notebook/Chapter 1 - From C to C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/noedebrois/CLionProjects/CPP_APC/Exercise Notebook/Chapter 1 - From C to C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir

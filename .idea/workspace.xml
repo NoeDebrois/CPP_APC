@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader">{
-  &quot;useNewFormat&quot;: true
-}</component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -23,110 +23,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdffb03a-a750-4896-b6ed-8793d5ff7f25" name="Changes" comment="">
+    <list default="true" id="a1ca82a1-14e2-43fd-acce-11c22f107c98" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/CPP_APC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CPP_APC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/10 - Inheritance A.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesAbstractClass/Bulk_quote.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesAbstractClass/Bulk_quote.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesAbstractClass/Disc_quote.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesAbstractClass/Disc_quote.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesAbstractClass/Inheritance2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesAbstractClass/Quote.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesAbstractClass/Quote.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesAbstractClass/Unfair_quote.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesAbstractClass/Unfair_quote.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/.idea/BookSalesDynamicBinding.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/Bulk_quote.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/Bulk_quote.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/Quote.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/Quote.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/reply/cache-v2-d02ed94b17e891eea186.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-8b4fe135ceea18491505.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a32eaa703cec73aa52c5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-24T10-27-02-0518.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/reply/target-BookSalesDynamicBinding-Debug-83bc5ec6a296c826c165.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-1d0b3e328f296b5fe530.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/BookSalesDynamicBinding.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/BookSalesDynamicBinding/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/.idea/Sneaky.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/Base.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/Base.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/Sneaky.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/Sneaky.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7801b35826a1a7ad92dd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0a6f7c749505fdd6050e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0f0e0fdcabf181975048.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-24T10-24-42-0725.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/reply/target-Sneaky-Debug-fbbc521e9b45120f8877.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-1d0b3e328f296b5fe530.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/Sneaky.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/Sneaky" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 10 - Inheritance/Sneaky/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-18T16-46-59-0909.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,28 +49,33 @@
     <option name="minorVersion" value="2.1" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2p1zYLb71tXTGsqZ2dGV5OrOig6" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2p7Ru6oo2XMvqMJm2w65hKN3Y9X" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CPP_APC" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPP_APC" TARGET_NAME="CPP_APC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CPP_APC" RUN_TARGET_NAME="CPP_APC">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -177,17 +85,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdffb03a-a750-4896-b6ed-8793d5ff7f25" name="Changes" comment="" />
-      <created>1731948416710</created>
+      <changelist id="a1ca82a1-14e2-43fd-acce-11c22f107c98" name="Changes" comment="" />
+      <created>1732115346941</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731948416710</updated>
-      <workItem from="1731948418571" duration="165000" />
-      <workItem from="1731961073789" duration="2000" />
+      <updated>1732115346941</updated>
+      <workItem from="1732115348449" duration="5000" />
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>

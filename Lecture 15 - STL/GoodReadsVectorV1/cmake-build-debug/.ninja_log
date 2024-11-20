@@ -1,0 +1,6 @@
+# ninja log v6
+0	669	1732115161206948902	CMakeFiles/GoodReadsVectorV1.dir/main.cpp.o	3b12db6f62f0ba5f
+2	652	1732115218525545738	CMakeFiles/GoodReadsVectorV1.dir/Book.cpp.o	ac0bc8789395daed
+3	653	1732115218526527702	CMakeFiles/GoodReadsVectorV1.dir/Review.cpp.o	2c89aae60f0a8503
+3	682	1732115218526703904	CMakeFiles/GoodReadsVectorV1.dir/GoodReads.cpp.o	7b746563a8fdf697
+683	809	1732115219205924606	GoodReadsVectorV1	651404579c3608a3
