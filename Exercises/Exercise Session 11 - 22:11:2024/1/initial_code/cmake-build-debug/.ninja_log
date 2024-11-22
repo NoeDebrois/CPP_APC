@@ -1,0 +1,5 @@
+# ninja log v6
+6	569	1732306174312526727	CMakeFiles/DocumentStore_initial.dir/Document.cpp.o	99c42545226b4fd5
+7	572	1732306174313504087	CMakeFiles/DocumentStore_initial.dir/main.cpp.o	8029c5588e7204a3
+7	573	1732306174313325256	CMakeFiles/DocumentStore_initial.dir/DocumentStore.cpp.o	1e22fefa93ea1a60
+573	699	1732306174879557617	DocumentStore_initial	bc4ff7f7b0ff1fd2
