@@ -4,9 +4,9 @@
 int main() {
 
     // test1(); // OK !
-    test2(); // OK !
-    //test3();
-    //test4();
+    // test2(); // OK !
+    // test3(); // OK !
+    // test4(); // OK !
     //test5();
     //test6();
     //test7();
