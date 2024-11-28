@@ -1,6 +1,6 @@
 # Assignment 2 - Algorithms & Parallel Computing in C++ 2024  
 
-This repository contains the implementation of **Assignment 2** for the Advanced Programming Concepts (APC) course, November 2024. The assignment focuses on implementing key components of a **Convolutional Neural Network (CNN)** in C++, including layers such as convolutional, max pooling, and fully connected layers.  
+This repository contains the implementation of **Assignment 2** for the Algorithms and Parallel Computing (APC) course in C++, November 2024. The assignment focuses on implementing key components of a **Convolutional Neural Network (CNN)** in C++, including layers such as convolutional, max pooling, and fully connected layers.  
 
 ## Project Structure  
 
