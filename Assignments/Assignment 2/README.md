@@ -43,27 +43,7 @@ This repository contains the implementation of **Assignment 2** for the Advanced
 
 The repository includes seven predefined tests (`test1()` through `test7()`) in the `main.cpp` file.  
 - Uncomment specific tests in `main()` to validate individual components.  
-- Tests are incremental; ensure all dependencies are resolved before proceeding to higher tests.  
-
-## How to Run  
-
-1. Clone the repository:  
-   ```bash  
-   git clone <repo-url>  
-   cd <repo-name>  
-   ```  
-
-2. Compile the project using your preferred C++ compiler:  
-   ```bash  
-   g++ -o Assignment2 main.cpp -std=c++17  
-   ```  
-
-3. Run the compiled program:  
-   ```bash  
-   ./Assignment2  
-   ```  
-
-4. Ensure output matches expected results for all test cases.  
+- Tests are incremental; ensure all dependencies are resolved before proceeding to higher tests.    
 
 For additional details, refer to the **Assignment2_2024.pdf** document in the repository.  
 
