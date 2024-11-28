@@ -12,8 +12,8 @@ This repository contains the implementation of **Assignment 2** for the Advanced
 ## Key Features  
 
 - **Class: convolutional layer**
-   – tensor 3d evaluate(const tensor 3d& input) : Method that performs the convolution of the input with the convo- lutional filter as described in Equation 4.
-   – tensor 3d forward pass(const tensor 3d& inputs) Method that performs a forward pass of the layer to the input. The output is obtained after applying the activation to the result of the evaluate function.
+   -- tensor 3d evaluate(const tensor 3d& input) : Method that performs the convolution of the input with the convo- lutional filter as described in Equation 4.
+   –- tensor 3d forward pass(const tensor 3d& inputs) Method that performs a forward pass of the layer to the input. The output is obtained after applying the activation to the result of the evaluate function.
 - **Max Pooling Layers**: Performs spatial dimension reduction with pooling filters.  
 - **Fully Connected Layers**: Handles dense connections and activations for classification.  
 - **LeNet Architecture**: Processes MNIST-like images to recognize handwritten digits.  
