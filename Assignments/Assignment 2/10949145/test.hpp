@@ -203,7 +203,7 @@ void test7() {
 
 // Sample test inputs
     std::vector<tensor_3d> tests = {network.get_test_images()->at(12), network.get_test_images()->at(912),
-                                    network.get_test_images()->at(9014)};
+                                    network.get_test_images()->at(9014)}; // 12, 919, 9014
 
 // Load weights, make predictions, and display results
     network.load(weights);
