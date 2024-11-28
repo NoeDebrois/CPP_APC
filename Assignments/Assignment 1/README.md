@@ -30,4 +30,4 @@ The following files were completed as part of the assignment:
 
 ## Testing
 
-The solution is validated on three provided test matrices (`input_10.txt`, `input_20.txt`, `input_30.txt`). The correctness of the implementations is verified by comparing results with expected eigenvalues. Additional test cases will be used for final evaluation.
+The solution is validated on three provided test matrices (`input_10.txt`, `input_20.txt`, `input_30.txt`). The correctness of the implementations is verified by comparing results with expected eigenvalues.
