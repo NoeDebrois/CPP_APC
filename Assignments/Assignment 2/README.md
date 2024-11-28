@@ -30,7 +30,10 @@ This repository contains the implementation of **Assignment 2** for the Advanced
      Executes a forward pass through the layer by applying weights and the activation function to the input vector, returning the output vector.  
 
 - **LeNet Architecture**  
-   Processes MNIST-like images to recognize handwritten digits using convolutional, max pooling, and fully connected layers.   
+   Processes MNIST-like images to recognize handwritten digits using convolutional, max pooling, and fully connected layers.
+
+- **Remark**
+   - What is a forward pass ? A forward pass is feeding an input (like an image) through each layer of the network, starting from the first and moving sequentially to the last, to compute the final output. In this project, we have to code the forward pass, specifically for each layer ! And then in the end there is a "full forward pass" that applies in the right order all the layer-specific forward passes !   
 
 ## Testing  
 
