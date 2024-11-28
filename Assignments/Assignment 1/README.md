@@ -1,6 +1,6 @@
 # Eigenvalue Computation: Power Iteration Methods
 
-This repository contains my solution to **Assignment 1** for the Advanced Programming Challenge 2024. The task focuses on implementing and testing three numerical methods to compute eigenvalues of matrices using iterative techniques: **Power Iteration**, **Inverse Power Iteration**, and **Shift Inverse Power Iteration**.
+This repository contains my solution to **Assignment 1** for the Algorithms and Parallel Computing course in C++, AY 2024/2025. The task focuses on implementing and testing three numerical methods to compute eigenvalues of matrices using iterative techniques: **Power Iteration**, **Inverse Power Iteration**, and **Shift Inverse Power Iteration**.
 
 ## Overview
 
