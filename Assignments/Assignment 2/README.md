@@ -11,12 +11,26 @@ This repository contains the implementation of **Assignment 2** for the Advanced
 
 ## Key Features  
 
-- **Class: convolutional layer**
-   -- tensor 3d evaluate(const tensor 3d& input) : Method that performs the convolution of the input with the convo- lutional filter as described in Equation 4.
-   –- tensor 3d forward pass(const tensor 3d& inputs) Method that performs a forward pass of the layer to the input. The output is obtained after applying the activation to the result of the evaluate function.
-- **Max Pooling Layers**: Performs spatial dimension reduction with pooling filters.  
-- **Fully Connected Layers**: Handles dense connections and activations for classification.  
-- **LeNet Architecture**: Processes MNIST-like images to recognize handwritten digits.  
+- **Class: Convolutional Layer**  
+   - `tensor_3d evaluate(const tensor_3d& input)`  
+     Performs the convolution of the input with the convolutional filter as described in Equation 4.  
+   - `tensor_3d forward_pass(const tensor_3d& inputs)`  
+     Performs a forward pass of the layer with the input. The output is obtained after applying the activation function to the result of the `evaluate` function.  
+
+- **Class: Max Pooling Layer**  
+   - `tensor_3d evaluate(const tensor_3d& input)`  
+     Performs the max pooling operation on the input using the pooling filter as described in Equation 7.  
+   - `tensor_3d forward_pass(const tensor_3d& inputs)`  
+     Executes a forward pass of the layer with the input. The output is obtained after applying the activation function to the result of the `evaluate` function.  
+
+- **Class: Fully Connected (FC) Layer**  
+   - `std::vector<double> compute(const std::vector<double>& inputs)`  
+     Computes the weighted sum of the inputs with the layer weights, returning the raw output (without activation). Implements Equation 1. For simplicity, the bias term \( b \) is set to 0.  
+   - `std::vector<double> forward_pass(const std::vector<double>& inputs)`  
+     Executes a forward pass through the layer by applying weights and the activation function to the input vector, returning the output vector.  
+
+- **LeNet Architecture**  
+   Processes MNIST-like images to recognize handwritten digits using convolutional, max pooling, and fully connected layers.   
 
 ## Testing  
 
