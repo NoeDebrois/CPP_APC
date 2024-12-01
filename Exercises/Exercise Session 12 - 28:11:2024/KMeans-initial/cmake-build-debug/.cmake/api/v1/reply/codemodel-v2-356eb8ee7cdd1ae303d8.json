@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KMeans_initial",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "KMeans_initial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KMeans_initial-Debug-5d03c5d043aa32f13507.json",
+					"name" : "KMeans_initial",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise Session 12 - 28:11:2024/KMeans-initial/cmake-build-debug",
+		"source" : "/Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise Session 12 - 28:11:2024/KMeans-initial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

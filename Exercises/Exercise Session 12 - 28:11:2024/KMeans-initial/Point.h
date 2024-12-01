@@ -6,18 +6,20 @@
 class Point
 {
 protected:
-  std::vector<double> x;
+  std::vector<double> x; // A point is a vector of double.
 
 public:
-  Point (std::vector<double> const &  coords) : x(coords) {};
+  // Constructor :
+  Point(std::vector<double> const &  coords) : x(coords) {};
 
-  //compute distance to Point p
-  double
-  distance (const Point& p) const;
-  void
-  print (void) const;
-  double
-  get_coord(int i) const;
+  // Compute distance to Point p :
+  double distance (const Point& p) const;
+
+  // Print function :
+  void print (void) const;
+
+  // Getter :
+  double get_coord(int i) const;
 };
 
 #endif /* POINT_H_ */
