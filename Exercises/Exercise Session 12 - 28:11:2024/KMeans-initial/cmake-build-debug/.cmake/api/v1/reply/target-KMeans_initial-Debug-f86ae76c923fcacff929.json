@@ -97,12 +97,6 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
 			"path" : "Point.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -116,6 +110,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Centroid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "KMeans.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

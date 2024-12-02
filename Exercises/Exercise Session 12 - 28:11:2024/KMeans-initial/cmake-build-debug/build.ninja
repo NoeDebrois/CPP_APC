@@ -49,12 +49,6 @@ cmake_ninja_workdir = /Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise
 
 build cmake_object_order_depends_target_KMeans_initial: phony || .
 
-build CMakeFiles/KMeans_initial.dir/main.cpp.o: CXX_COMPILER__KMeans_initial_unscanned_Debug /Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise$ Session$ 12$ -$ 28$:11$:2024/KMeans-initial/main.cpp || cmake_object_order_depends_target_KMeans_initial
-  DEP_FILE = CMakeFiles/KMeans_initial.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/KMeans_initial.dir
-  OBJECT_FILE_DIR = CMakeFiles/KMeans_initial.dir
-
 build CMakeFiles/KMeans_initial.dir/Point.cpp.o: CXX_COMPILER__KMeans_initial_unscanned_Debug /Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise$ Session$ 12$ -$ 28$:11$:2024/KMeans-initial/Point.cpp || cmake_object_order_depends_target_KMeans_initial
   DEP_FILE = CMakeFiles/KMeans_initial.dir/Point.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
@@ -73,6 +67,12 @@ build CMakeFiles/KMeans_initial.dir/Centroid.cpp.o: CXX_COMPILER__KMeans_initial
   OBJECT_DIR = CMakeFiles/KMeans_initial.dir
   OBJECT_FILE_DIR = CMakeFiles/KMeans_initial.dir
 
+build CMakeFiles/KMeans_initial.dir/KMeans.cpp.o: CXX_COMPILER__KMeans_initial_unscanned_Debug /Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise$ Session$ 12$ -$ 28$:11$:2024/KMeans-initial/KMeans.cpp || cmake_object_order_depends_target_KMeans_initial
+  DEP_FILE = CMakeFiles/KMeans_initial.dir/KMeans.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/KMeans_initial.dir
+  OBJECT_FILE_DIR = CMakeFiles/KMeans_initial.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target KMeans_initial
@@ -81,7 +81,7 @@ build CMakeFiles/KMeans_initial.dir/Centroid.cpp.o: CXX_COMPILER__KMeans_initial
 #############################################
 # Link the executable KMeans_initial
 
-build KMeans_initial: CXX_EXECUTABLE_LINKER__KMeans_initial_Debug CMakeFiles/KMeans_initial.dir/main.cpp.o CMakeFiles/KMeans_initial.dir/Point.cpp.o CMakeFiles/KMeans_initial.dir/Clustering.cpp.o CMakeFiles/KMeans_initial.dir/Centroid.cpp.o
+build KMeans_initial: CXX_EXECUTABLE_LINKER__KMeans_initial_Debug CMakeFiles/KMeans_initial.dir/Point.cpp.o CMakeFiles/KMeans_initial.dir/Clustering.cpp.o CMakeFiles/KMeans_initial.dir/Centroid.cpp.o CMakeFiles/KMeans_initial.dir/KMeans.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/KMeans_initial.dir
   POST_BUILD = :

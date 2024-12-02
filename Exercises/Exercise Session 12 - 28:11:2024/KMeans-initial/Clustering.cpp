@@ -62,26 +62,46 @@ Clustering::calc_cluster (void)
   std::default_random_engine generator;
   std::uniform_int_distribution<int> distribution (0, k - 1);
 
-  //Randomly initialize labels
-  /* Your code goes here */
+  // Randomly initialize labels
+  /* MY CODE */
   int random_int  = distribution (generator);
+
+  // Assign points to clusters randomly :
+  for (std::size_t i = 0; i < labels.size (); ++i) {
+    labels[i] = distribution (generator);
+  }
 
   bool term_cond = false;
   unsigned i;
 
   for (i = 0; i < max_it && ! term_cond; ++i)
     {
-      /* Your code goes here */
+      /* MY CODE */
+      f_labels_type old_labels(labels);
+      clusters_type new_clusters(k);
 
-      // update clusters according to new labels
-      /* Your code goes here */
+      // Update clusters according to new labels :
+      for(unsigned j = 0; j < points.size (); ++j) {
+        // labels[j] tells what is the cluster of point j
+        // new_clusters[labels[j]] is the cluster that needs to add points[j]
+        new_clusters[labels[j]].push_back(& points[j]);
+      }
 
-      // update centroids
+      // clusters = new_clusters;
+      swap(clusters, new_clusters); // MUCH FASTER
 
+      // Update centroids :
+      for (unsigned k1 = 0; k1 < k; ++k1) {
+        centers[k1].update_coords(clusters[k1]);
+      }
 
-      // assign points to new centroids
+      // Assign points to new centroids : this means we have to update labels
+      for (unsigned j=0; j<points.size (); ++j) {
+        size_t min_dist_ind = min_dist_index(points[j]);
+        labels[j] = min_dist_ind;
+      }
 
-      term_cond = /* Your code goes here */
+      term_cond = labels == old_labels;
     }
 
   std::cout << "Number of iterations: " << i << std::endl;

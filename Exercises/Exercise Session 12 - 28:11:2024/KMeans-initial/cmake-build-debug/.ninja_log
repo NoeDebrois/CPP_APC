@@ -1,0 +1,8 @@
+# ninja log v6
+7	1146	1733131309996123255	CMakeFiles/KMeans_initial.dir/KMeans.cpp.o	f6dbc8179a743013
+11	707	1733130268313809437	CMakeFiles/KMeans_initial.dir/Centroid.cpp.o	6b5f9333dc6c56a0
+10	706	1733130268313183985	CMakeFiles/KMeans_initial.dir/Point.cpp.o	e95f225bc8266904
+6	1323	1733131309995240296	CMakeFiles/KMeans_initial.dir/Clustering.cpp.o	f8600cbdd65d2caf
+8	703	1733130268311443086	CMakeFiles/KMeans_initial.dir/main.cpp.o	7cb28b0ea9861141
+4	60	1733131341826071251	build.ninja	66270345b5951d9c
+2	240	1733131341837337272	KMeans_initial	d3bdf6aa04a1c3dd

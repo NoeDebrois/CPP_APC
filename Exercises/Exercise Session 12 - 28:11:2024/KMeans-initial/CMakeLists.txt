@@ -3,6 +3,4 @@ project(KMeans_initial)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(KMeans_initial main.cpp Point.cpp
-        Clustering.cpp
-        Centroid.cpp)
+add_executable(KMeans_initial Point.cpp Clustering.cpp Centroid.cpp KMeans.cpp)
