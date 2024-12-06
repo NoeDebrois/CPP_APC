@@ -1,0 +1,5 @@
+trap_basic
+trap_bcast
+trap_point2point
+trap_reduce
+trap_uneven
