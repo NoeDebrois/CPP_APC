@@ -8,6 +8,7 @@ Those files are the first "parallel computing" implementations that we saw durin
 cd inside the folder and :
 1) mpicxx -o reduce --std=c++11 with_io.cc quadrature.cc bcast.cc reduce.cc [COMPILE]
 2) mpiexec -np 4 -oversubscribe reduce
+3) Enter lower bound / upper bound / number of trapezoids
 
 PS : the number after "-np" corresponds to the number of cores.
 PSS : "-oversubscribe" is needed if there are not enough cores avaiable (I guess it uses previously used cores).
