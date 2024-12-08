@@ -1,0 +1,10 @@
+# ninja log v6
+1	784	1733670615927937542	CMakeFiles/StudentsFile.dir/Exam.cpp.o	33e68c9bc02bd731
+2	800	1733670615928130117	CMakeFiles/StudentsFile.dir/StudentsData.cpp.o	4441d4b5e53bdb00
+1018	1153	1733670616944833222	StudentsFile	e331b5aed000c3bd
+2	966	1733670615928263071	CMakeFiles/StudentsFile.dir/FileManager.cpp.o	75a8411459331ef5
+1	1018	1733670615926999369	CMakeFiles/StudentsFile.dir/main.cpp.o	b09a280e80af9e7d
+6	701	1733670688474029364	CMakeFiles/StudentsFile.dir/Users/noedebrois/Downloads/Lab3-solution/main.cpp.o	b74ead2afeb84c9e
+3	132	1733670771477723011	StudentsFile	e331b5aed000c3bd
+5	795	1733670873168562655	CMakeFiles/StudentsFile.dir/main.cpp.o	b09a280e80af9e7d
+795	923	1733670873958885429	StudentsFile	e331b5aed000c3bd

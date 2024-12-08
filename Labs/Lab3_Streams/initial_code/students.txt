@@ -1,0 +1,3 @@
+100100,Mario,Rossi,8/6/1991
+100101,Giovanni,Bianchi,29/7/1992
+100102,Monica,Brown,24/3/1990
