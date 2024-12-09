@@ -102,6 +102,7 @@ For both `MPI_Send` and `MPI_Recv`, here are the explanations related to the arg
 - `source`/`dest`: **ranks** identifying the targer sender or the receiver;
 - `tag`: nonnegative `int` used to distinguish messages traveling on the same connection (we won't use it in the APC course) *that are otherwise identical*.
     - For example: if "process 1" is sending `floats` to "process 0" but some of them should be printed and the others should be used in a computation : "process 1" can use, say, a `tag` of 0 for the messages that should be printed and a `tag` of 1 for the messages that should be used in a computation.
+- `status`: detailed information on received data. *We won't use it, so we will mainly pass* `MPI_STATUS_IGNBORE`.
 
 MPI Datatypes are the following :
 - MPI_CHAR;
