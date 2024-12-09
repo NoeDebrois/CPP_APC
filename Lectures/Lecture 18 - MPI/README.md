@@ -10,23 +10,23 @@
 - Collects every process launched with the program.
 
 ## MPI Basic Functions
-### MPI_Init
+### `MPI_Init`
 - Usage: `int MPI_Init(int* argc_p, char*** argv_p)`
 - The arguments, `argc_p` and `argv_p` are pointers to the arguments of main, `argc` and `argv` (we can pass `nullptr`).
 - Tells the MPI system to do all the necessary setup.
 - No other MPI functions should be called before the program calls `MPI_Init`.
 
-### MPI_Finalize
+### `MPI_Finalize`
 - Usage: `int MPI_Finalize(void)`
 - Tells the MPI system that we’re done using MPI, and that any resources allocated for MPI can be freed.
 - No MPI functions should be called after the call to `MPI_Finalize`.
 
-### MPI_Comm_size
+### `MPI_Comm_size`
 - Usage: `MPI_Comm_size(MPI_Comm comm, int *size)`
   - Returns the number of processes in the communicator (`*size`).
   - **First argument**: Communicator of type `MPI_Comm`.
 
-### MPI_Comm_rank
+### `MPI_Comm_rank`
 - Usage: `MPI_Comm_rank(MPI_Comm comm, int *rank)`
   - Returns the rank of the calling process in the communicator (`*rank`).
   - **First argument**: Communicator of type `MPI_Comm`.
