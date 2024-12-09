@@ -52,7 +52,7 @@ int main (int argc, char *argv[]) {
 
 **Compiling and running the "Hello World" Program :**
 
-First, to compile the MPI "Hello World" program, go to the correct directory and use the following command:
+*First*, to compile the MPI "Hello World" program, go to the correct directory and use the following command:
 
 ```bash
 mpicxx --std=c++23 -o helloMPI hello.cpp
@@ -61,7 +61,7 @@ mpicxx --std=c++23 -o helloMPI hello.cpp
 - **-o helloMPI**: Specifies the output executable file name (`helloMPI`).
 - **hello.cpp**: The source file containing the "Hello World" code. Replace this with your actual filename if it's different.
 
-Then, to run the MPI "Hello World" program, use the following command:
+*Then*, to run the MPI "Hello World" program, use the following command:
 
 ```bash
 mpiexec -np 2 ./helloMPI
