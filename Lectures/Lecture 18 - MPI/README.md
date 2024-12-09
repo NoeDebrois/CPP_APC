@@ -16,7 +16,7 @@
 - Tells the MPI system to do all the necessary setup.
 - No other MPI functions should be called before the program calls `MPI_Init`.
 
-### MPI_Finalize
+### MPI_Finalize
 - Usage: `int MPI_Finalize(void)`
 - Tells the MPI system that we’re done using MPI, and that any resources allocated for MPI can be freed.
 - No MPI functions should be called after the call to `MPI_Finalize`.
