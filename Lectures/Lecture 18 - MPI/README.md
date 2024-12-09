@@ -98,7 +98,7 @@ mpiexec -np 2 ./helloMPI
 
 For both `MPI_Send` and `MPI_Recv`, here are the explanations related to the arguments: 
 - `buf`: array storing the data to send or to receive;
-- `coutn`: states how many replicas of the data type will be sent, or the maximum allowed;
+- `count`: states how many replicas of the data type will be sent, or the maximum allowed;
 - `source`/`dest`: **ranks** identifying the targer sender or the receiver;
 - `tag`: used to distinguish messages traveling on the same connection (we won't use it in the APC course).
 
