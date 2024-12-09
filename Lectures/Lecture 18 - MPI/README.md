@@ -12,11 +12,14 @@
 ## MPI Functions
 ### MPI_Init
 - Usage: `int MPI_Init(int* argc_p, char*** argv_p)`
+- The arguments, `argc_p` and `argv_p` are pointers to the arguments of main, `argc` and `argv` (we can pass `nullptr`).
 - Tells the MPI system to do all the necessary setup.
 - No other MPI functions should be called before the program calls `MPI_Init`.
 
 ### MPI_Finalize
-- 
+- Usage: `int MPI_Finalize(void)`
+- Tells the MPI system that we’re done using MPI, and that any resources allocated for MPI can be freed.
+- No MPI functions should be called after the call to `MPI_Finalize`.
 
 ### MPI_Comm_size
 - Usage: `MPI_Comm_size(MPI_Comm comm, int *size)`
