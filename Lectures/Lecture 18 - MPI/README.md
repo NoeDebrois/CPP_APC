@@ -50,6 +50,14 @@ int main (int argc, char *argv[]) {
 }
 ```
 
+**Compiling the "Hello World" Program :**
+
+To compile the MPI "Hello World" program, use the following command:
+
+```bash
+mpicxx -o hello_world hello_world.cc
+```
+
 ## TO BE CLEANED :
 Those files are the first "parallel computing" implementations that we saw during the course. They should be executed on the VM given during the course.
 
