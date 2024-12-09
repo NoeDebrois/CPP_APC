@@ -68,6 +68,7 @@ mpiexec -np 2 ./helloMPI
 ```
 - **mpiexec**: Launches the MPI program.
 - **-np 2**: Specifies the number of processes to use (4 in this example).
+- (**-oversubscribe**: if too much processes have been already used).
 - **./helloMPI**: The name of the compiled executable file.
 
 ## TO BE CLEANED :
