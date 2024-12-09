@@ -31,7 +31,7 @@ For example, `MPI_COMM_WORLD` :
   - Returns the rank of the calling process in the communicator (`*rank`).
   - **First argument**: Communicator of type `MPI_Comm`.
 
-## "Hello World" Example with MPI
+### "Hello World" Example with MPI
 
 ```cpp
 #include <cstdio>  // For printf
