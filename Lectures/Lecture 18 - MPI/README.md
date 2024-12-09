@@ -52,10 +52,10 @@ int main (int argc, char *argv[]) {
 
 **Compiling the "Hello World" Program :**
 
-To compile the MPI "Hello World" program, use the following command:
+To compile the MPI "Hello World" program, go to the correct directory and use the following command:
 
 ```bash
-mpicxx -o hello_world hello_world.cc
+mpicxx --std=c++23 -o helloMPI hello.ccp
 ```
 
 ## TO BE CLEANED :
