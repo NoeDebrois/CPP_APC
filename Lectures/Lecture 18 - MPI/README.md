@@ -115,7 +115,7 @@ MPI Datatypes are the following :
 - MPI_DOUBLE;
 - MPI_LONG_DOUBLE;
 - MPI_BYTE.
-- **WARNING!** No "MPI_STRING" !
+- **WARNING:** No "MPI_STRING" !
 
 ---
 
