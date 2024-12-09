@@ -10,6 +10,14 @@
 - Collects every process launched with the program.
 
 ## MPI Functions
+### MPI_Init
+- Usage: `int MPI_Init(int* argc_p, char*** argv_p)`
+- Tells the MPI system to do all the necessary setup.
+- No other MPI functions should be called before the program calls `MPI_Init`.
+
+### MPI_Finalize
+- 
+
 ### MPI_Comm_size
 - Usage: `MPI_Comm_size(MPI_Comm comm, int *size)`
   - Returns the number of processes in the communicator (`*size`).
