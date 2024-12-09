@@ -5,7 +5,7 @@
 - **Size**: Number of processes it collects.
 - **Rank**: Unique identifier in [0, size) for each process.
 
-## MPI_COMM_WORLD
+For example, `MPI_COMM_WORLD` :
 - A predefined communicator.
 - Collects every process launched with the program.
 
