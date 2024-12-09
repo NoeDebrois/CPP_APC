@@ -9,7 +9,7 @@
 - A predefined communicator.
 - Collects every process launched with the program.
 
-## MPI Functions
+## MPI Basic Functions
 ### MPI_Init
 - Usage: `int MPI_Init(int* argc_p, char*** argv_p)`
 - The arguments, `argc_p` and `argv_p` are pointers to the arguments of main, `argc` and `argv` (we can pass `nullptr`).
@@ -84,7 +84,19 @@ mpiexec -np 2 ./helloMPI
 
 ---
 
-## hh
+## Other MPI Functions
+### MPI_Send
+- Usage: `int MPI_Send(const void *buf, int count, MPI_Datatype datatype, int dest, int tag, MPI_Comm comm)`
+- Example: `MPI_Send(&message[0], max_string, MPI_CHAR, 0, 0, MPI_COMM_WORLD)`
+- Explanation:
+  - The first 3 arguments `buf`, `count`, and `datatype` determine the contents of the messsage ;
+  - The remaining arguments `dest`, `tag`, and `comm` determine the destination of the message.
+
+### MPI_Recv
+- Usage: `int MPI_Recv(void *buf, int count, MPI_Datatype datatype, int source, int tag, MPI_Comm comm, MPI_Status *status)`
+
+
+---
 
 ## TO BE CLEANED :
 Those files are the first "parallel computing" implementations that we saw during the course. They should be executed on the VM given during the course.
