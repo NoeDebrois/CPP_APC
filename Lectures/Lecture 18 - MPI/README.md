@@ -94,7 +94,7 @@ mpiexec -np 2 ./helloMPI
 
 ### MPI_Recv
 - Usage: `int MPI_Recv(void *buf, int count, MPI_Datatype datatype, int source, int tag, MPI_Comm comm, MPI_Status *status)`
-
+- Example: `MPI_Recv(&message[0], max_string, MPI_CHAR, r, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE)`
 
 ---
 
