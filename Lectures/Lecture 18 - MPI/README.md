@@ -55,8 +55,13 @@ int main (int argc, char *argv[]) {
 To compile the MPI "Hello World" program, go to the correct directory and use the following command:
 
 ```bash
-mpicxx --std=c++23 -o helloMPI hello.ccp
+mpicxx --std=c++23 -o helloMPI hello.cpp
 ```
+- **mpicxx**: The MPI C++ compiler wrapper.
+- **-o helloMPI**: Specifies the output executable file name (`helloMPI`).
+- **hello.cpp**: The source file containing the "Hello World" code. Replace this with your actual filename if it's different.
+
+
 
 ## TO BE CLEANED :
 Those files are the first "parallel computing" implementations that we saw during the course. They should be executed on the VM given during the course.
