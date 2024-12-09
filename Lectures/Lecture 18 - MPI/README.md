@@ -47,8 +47,8 @@ int main (int argc, char *argv[]) {
     MPI_Finalize();
 
     return 0;
-}```
-
+}
+```
 
 ## TO BE CLEANED :
 Those files are the first "parallel computing" implementations that we saw during the course. They should be executed on the VM given during the course.
