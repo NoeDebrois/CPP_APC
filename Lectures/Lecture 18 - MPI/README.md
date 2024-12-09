@@ -84,7 +84,7 @@ mpiexec -np 2 ./helloMPI
 
 ---
 
-## Other MPI Functions
+## Other MPI Functions : `MPI_Send` and `MPI_Recv`
 ### MPI_Send
 - Usage: `int MPI_Send(const void *buf, int count, MPI_Datatype datatype, int dest, int tag, MPI_Comm comm)`
 - Example: `MPI_Send(&message[0], max_string, MPI_CHAR, 0, 0, MPI_COMM_WORLD)`
