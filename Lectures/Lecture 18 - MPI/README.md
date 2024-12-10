@@ -144,6 +144,17 @@ MPI Datatypes are the following :
   - If tags don't match : the *receive* won't match the *send* ;
   - If the rank of the destination process is the same as the rank of the source process : the *receive* won't match the *send*.
   - Either the process will **hang**, or the receive may match another send.
+ 
+### Quadrature Function Implementation Example with MPI
+We want to build a program which computes the quadrature of a function \( f(x) \) over a specified interval \([a, b]\) using the trapezoidal rule.
+We want to divide the intermediate computations of trapezoid areas into different cores, and at the end we *need to aggregate the computation of these areas*.
+
+**Basic Idea:**
+- Split the interval \[ [a, b] \] up into `comm_sz` subintervals ;
+- If `comm_sz` evenly divides \[ n \] the *number of trapezoids*, we can simply apply the trapezoidal rule with \[ n \] / `comm_sz` trapezoids to *each* of the `comm_sz` subintervals ;
+- At the end, process 0 add all the estimates.
+
+
 ---
 
 ## TO BE CLEANED :
