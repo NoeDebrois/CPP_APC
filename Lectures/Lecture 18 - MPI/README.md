@@ -128,7 +128,7 @@ MPI Datatypes are the following :
   - `src = q` ;
   - `recv_tag = send_tag` ;
   - `recv_datatype = send_datatype` ;
-  - `recv_count $\ge$ send_count`.
+  - `recv_count >= send_count`.
 
 ---
 
