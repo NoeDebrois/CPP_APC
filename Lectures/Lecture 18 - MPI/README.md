@@ -156,6 +156,6 @@ We want to divide the intermediate computations of trapezoid areas into differen
 
 **To test the DEMO on trapezoidal rule:**
 - cd inside the folder ;
-- mpicxx -o reduce --std=c++11 with_io.cc quadrature.cc bcast.cc reduce.cc [COMPILE] ;
+- mpicxx -o reduce --std=c++11 with_io.cc quadrature.cc bcast.cc reduce.cc [COMPILE] (creates an output executable file named "reduce") ;
 - mpiexec -np 4 -oversubscribe reduce ;
 - Enter lower bound / upper bound / number of trapezoids.
