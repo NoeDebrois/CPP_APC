@@ -152,7 +152,7 @@ We want to divide the intermediate computations of trapezoid areas into differen
 **Basic Idea:**
 - Split the interval [a, b] up into `comm_sz` subintervals ;
 - If `comm_sz` evenly divides n the *number of trapezoids*, we can simply apply the trapezoidal rule with n / `comm_sz` trapezoids to *each* of the `comm_sz` subintervals ;
-- At the end, process 0 add all the estimates.
+- At the end, process 0 adds all the estimates.
 
 
 ---
