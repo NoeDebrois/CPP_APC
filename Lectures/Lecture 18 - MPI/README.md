@@ -137,7 +137,7 @@ MPI Datatypes are the following :
   - Example: in the same time process 0 `MPI_Send(n)` and process n `MPI_Send(0)` ; and after, once again in the same time, process 0 `MPI_Recv(n)` and process n `MPI_Recv(0)`.
 - To prevent deadlocks : *smartly rearrange communications* ! (or use non-blocking calls but we won't use them in APC course).
 
-## Process hand :
+## Process hang :
 - If a process tries to *receive* a message and there is **no matching send**, then the process will **block forever**.
 - When you code, be sure that every *receive* has a matching *send*.
 - Be careful to inadvertent mistakes in calls to `MPI_Send` and `MPI_Recv` :
