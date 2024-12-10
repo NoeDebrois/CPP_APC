@@ -147,7 +147,7 @@ MPI Datatypes are the following :
  
 ## Quadrature Function Implementation Example with MPI :
 We want to build a program which computes the quadrature of a function \( f(x) \) over a specified interval \([a, b]\) using the trapezoidal rule.
-We want to divide the intermediate computations of trapezoid areas into different cores, and at the end we *need to aggregate the computation of these areas*.
+We want to divide the intermediate computations of trapezoid areas into different cores, and at the end we *need to aggregate the computations of these areas*.
 
 **Basic Idea:**
 - Split the interval \[ [a, b] \] up into `comm_sz` subintervals ;
