@@ -130,7 +130,11 @@ MPI Datatypes are the following :
   - `recv_datatype = send_datatype` ;
   - `recv_count >= send_count`.
 - **Non-overtaking message:** if process q send two messages to process r, then the first message sent by q must be available to r before the second message.
-  - There is no such restriction on the arrival of messages sent from different processes. 
+  - There is no such restriction on the arrival of messages sent from different processes.
+ 
+## Deadlocks in MPI :
+- **Deadlocks** occur when processes block for communication, but their requests remain unmatched or otherwise unprocessed.
+  - Example: in the same time process 0 `MPI_Send(n)` and process n `MPI_Send(0)` ; and after, once again in the same time, process 0 `MPI_Recv(n)` and process n `MPI_Recv(0)`.
 
 ---
 
