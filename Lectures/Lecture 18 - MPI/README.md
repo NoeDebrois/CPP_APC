@@ -115,7 +115,18 @@ MPI Datatypes are the following :
 - `MPI_DOUBLE`;
 - `MPI_LONG_DOUBLE`;
 - `MPI_BYTE`.
-- **WARNING:** No "MPI_STRING" !
+- **WARNING:** No "`MPI_STRING`" !
+
+---
+
+## Message matching, or how a message sent by q can be received by r :
+- in process q: `MPI_Send(send_buf, send_count, send_datatype, dest, send_tag, send_comm)` ;
+- in process r: `MPI_Recv(recv_buf, recv_count, recv_datatype, src, recv_tag, recv_comm, &status)` ;
+- **The message sent by q can be received by r if:**
+  -  `send_comm = recv_comm` ;
+  -  `dest = r` ;
+  -  `src = q` ;
+  -  `recv_tag = send_tag`.
 
 ---
 
