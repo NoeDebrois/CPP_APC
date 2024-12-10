@@ -103,18 +103,18 @@ For both `MPI_Send` and `MPI_Recv`, here are the explanations related to the arg
 - `status`: detailed information on received data. *We won't use it, so we will mainly pass* `MPI_STATUS_IGNBORE`.
 
 MPI Datatypes are the following :
-- MPI_CHAR;
-- MPI_SHORT;
-- MPI_INT;
-- MPI_LONG;
-- MPI_UNSIGNED_CHAR;
-- MPI_UNSIGNED_SHORT;
-- MPI_UNSIGNED_CHAR;
-- MPI_UNSIGNED_LONG;
-- MPI_FLOAT;
-- MPI_DOUBLE;
-- MPI_LONG_DOUBLE;
-- MPI_BYTE.
+- `MPI_CHAR`;
+- `MPI_SHORT`;
+- `MPI_INT`;
+- `MPI_LONG`;
+- `MPI_UNSIGNED_CHAR`;
+- `MPI_UNSIGNED_SHORT`;
+- `MPI_UNSIGNED_CHAR`;
+- `MPI_UNSIGNED_LONG`;
+- `MPI_FLOAT`;
+- `MPI_DOUBLE`;
+- `MPI_LONG_DOUBLE`;
+- `MPI_BYTE`.
 - **WARNING:** No "MPI_STRING" !
 
 ---
