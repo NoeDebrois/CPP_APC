@@ -129,6 +129,8 @@ MPI Datatypes are the following :
   - `recv_tag = send_tag` ;
   - `recv_datatype = send_datatype` ;
   - `recv_count >= send_count`.
+- **Non-overtaking message:** if process q send two messages to process r, then the first message sent by q must be available to r before the second message.
+  - There is no such restriction on the arrival of messages sent from different processes. 
 
 ---
 
