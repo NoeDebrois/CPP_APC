@@ -154,12 +154,8 @@ We want to divide the intermediate computations of trapezoid areas into differen
 - If `comm_sz` evenly divides n the *number of trapezoids*, we can simply apply the trapezoidal rule with n / `comm_sz` trapezoids to *each* of the `comm_sz` subintervals ;
 - At the end, process 0 adds all the estimates.
 
-
----
-
-## TO BE CLEANED :
-### trapezoidal_rule :
-cd inside the folder and :
-1) mpicxx -o reduce --std=c++11 with_io.cc quadrature.cc bcast.cc reduce.cc [COMPILE]
-2) mpiexec -np 4 -oversubscribe reduce
-3) Enter lower bound / upper bound / number of trapezoids
+**To test the DEMO on trapezoidal rule:**
+- cd inside the folder ;
+- 1) mpicxx -o reduce --std=c++11 with_io.cc quadrature.cc bcast.cc reduce.cc [COMPILE] ;
+- 2) mpiexec -np 4 -oversubscribe reduce ;
+- 3) Enter lower bound / upper bound / number of trapezoids.
