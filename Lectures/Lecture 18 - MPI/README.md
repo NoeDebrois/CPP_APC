@@ -136,6 +136,14 @@ MPI Datatypes are the following :
 - **Deadlocks** occur when processes block for communication, but their requests remain unmatched or otherwise unprocessed.
   - Example: in the same time process 0 `MPI_Send(n)` and process n `MPI_Send(0)` ; and after, once again in the same time, process 0 `MPI_Recv(n)` and process n `MPI_Recv(0)`.
 - To prevent deadlocks : *smartly rearrange communications* ! (or use non-blocking calls but we won't use them in APC course).
+
+## Process hand :
+- If a process tries to *receive* a message and there is **no matching send**, then the process will **block forever**.
+- When you code, be sure that every *receive* has a matching *send*.
+- Be careful to inadvertent mistakes in calls to `MPI_Send` and `MPI_Recv` :
+  - If tags don't match : the *receive* won't match the *send* ;
+  - If the rank of the destination process is the same as the rank of the source process : the *receive* won't match the *send*.
+  - Either the process will **hang**, or the receive may match another send.
 ---
 
 ## TO BE CLEANED :
