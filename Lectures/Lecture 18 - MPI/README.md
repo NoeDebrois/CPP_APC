@@ -135,7 +135,7 @@ MPI Datatypes are the following :
 ## Deadlocks in MPI :
 - **Deadlocks** occur when processes block for communication, but their requests remain unmatched or otherwise unprocessed.
   - Example: in the same time process 0 `MPI_Send(n)` and process n `MPI_Send(0)` ; and after, once again in the same time, process 0 `MPI_Recv(n)` and process n `MPI_Recv(0)`.
-- To prevent deadlocks : smartly rearrange communications ! (or use non-blocking calls but we won't use them in APC course).
+- To prevent deadlocks : *smartly rearrange communications* ! (or use non-blocking calls but we won't use them in APC course).
 ---
 
 ## TO BE CLEANED :
