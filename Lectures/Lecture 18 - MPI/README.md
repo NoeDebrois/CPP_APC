@@ -214,7 +214,7 @@ We want to divide the intermediate computations of trapezoid areas into differen
   - To compile with Broadcast : `mpicxx -o reduce --std=c++23 with_io.cc quadrature.cc bcast.cc p2p_output.cc`.
   - **Warning!** We are not computing the "global sum" efficiently : in the end we don't want to send everything to one single process that has to compute the sum alone...
     - Instead we want to *split the final sum work* : this is what `MPI_Reduce` does ! cf the following picture.
-    - ![]()
+    - ![](IMG_Sum_Work.jpeg)
 
 
 
