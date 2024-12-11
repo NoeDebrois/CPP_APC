@@ -191,15 +191,18 @@ We want to divide the intermediate computations of trapezoid areas into differen
       #include <mpi.h>
       #include "input.hh"
       
-      namespace mpi
+      namespace mpi // Namespace to encapsulate MPI-related functions
       {
+        // Function to get input values and broadcast them to all processes
         void get_input (double & a, double & b, unsigned & n)
         {
-          int rank;
-          MPI_Comm_rank (MPI_COMM_WORLD, &rank);
-      
+          int rank; // Variable to store the rank of the current process
+          MPI_Comm_rank (MPI_COMM_WORLD, &rank); // Get the rank of the current process
+
+          // If the current process is the root (rank 0), read input values from stdin
           if (rank == 0) std::cin >> a >> b >> n;
-      
+
+          // Broadcast the values to all processes in the communicator
           MPI_Bcast (&a, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
           MPI_Bcast (&b, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
           MPI_Bcast (&n, 1, MPI_UNSIGNED, 0, MPI_COMM_WORLD);
