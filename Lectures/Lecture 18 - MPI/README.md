@@ -189,13 +189,11 @@ We want to divide the intermediate computations of trapezoid areas into differen
     ```cpp
       #include <iostream>
       #include <mpi.h>
-      
       #include "input.hh"
       
       namespace mpi
       {
-        void
-        get_input (double & a, double & b, unsigned & n)
+        void get_input (double & a, double & b, unsigned & n)
         {
           int rank;
           MPI_Comm_rank (MPI_COMM_WORLD, &rank);
