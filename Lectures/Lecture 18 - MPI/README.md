@@ -217,9 +217,13 @@ We want to divide the intermediate computations of trapezoid areas into differen
     ![](IMG_Sum_Work.jpeg)
 
 ### `MPI_Reduce` :
-- Usage: `int MPI_Reduce(const void  *sendbuf, void *recvbuf, int count, MPI_Datatype datatype, MPI_Op op, int dest, MPI_Comm comm)`
-
-
+- Usage: `int MPI_Reduce(const void  *sendbuf, void *recvbuf, int count, MPI_Datatype datatype, MPI_Op op, int dest, MPI_Comm comm)` ;
+  - Applies `op` to portions of data in `sendbuf` from all the processes in `comm`, storing the result in `recvbuf` on `dest` ;
+  - Simple example : ```cpp
+                        double local_partial; // some partial sum
+                        double total;
+                        MPI_Reduce(&local_partial, &total, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+                    ```
 
 
 
