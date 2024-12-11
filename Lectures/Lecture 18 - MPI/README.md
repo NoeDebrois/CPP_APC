@@ -146,7 +146,7 @@ MPI Datatypes are the following :
   - Either the process will **hang**, or the receive may match another send.
  
 ## Quadrature Function Implementation Example with MPI :
-We want to build a program which computes the quadrature of a function \( f(x) \) over a specified interval \([a, b]\) using the trapezoidal rule.
+We want to build a program which computes the quadrature of a function f(x) over a specified interval [a, b] using the trapezoidal rule.
 We want to divide the intermediate computations of trapezoid areas into different cores, and at the end we *need to aggregate the computations of these areas*.
 
 **Basic Idea:**
@@ -159,3 +159,28 @@ We want to divide the intermediate computations of trapezoid areas into differen
 - mpicxx -o reduce --std=c++11 with_io.cc quadrature.cc bcast.cc reduce.cc [COMPILE] (creates an output executable file named "reduce") ;
 - mpiexec -np 4 -oversubscribe reduce ;
 - Enter lower bound / upper bound / number of trapezoids.
+
+---
+
+## MPI B :
+
+### Collective Communication : *Or how to throw flyers from a plane*
+
+- `MPI_Send` and `MPI_Recv` are for "one-to-one" communication ;
+- Instead if send many one-to-one communications, one single  `broadcast` is more *network efficient*.
+- Let's discover **collective routines**.
+
+### Collective routines :
+
+
+
+
+
+
+
+
+
+
+
+
+
