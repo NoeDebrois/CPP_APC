@@ -239,33 +239,33 @@ We want to divide the intermediate computations of trapezoid areas into differen
   - `MPI_SUM` ;
   - `MPI_PROD` ;
   - Others that don't interest us for this course.
-- Example: `mpi::sum_and_print` function demonstrates how to aggregate partial results from multiple processes and output the result in the root process. Below is the commented code:
-```cpp
-#include <mpi.h> // Include the MPI library
-
-#include "sum_and_output.hh" // Custom header for function declarations
-
-namespace mpi // Encapsulate MPI-related functions in a namespace
-{
-  // Function to compute the sum of partial integrals and print the result
-  void sum_and_print (double local_integral, std::ostream & out,
-                      double a, double b, unsigned n)
+- Example: `mpi::sum_and_print` function demonstrates how to aggregate partial results from multiple processes and output the result in the root process.
+  ```cpp
+  #include <mpi.h> // Include the MPI library
+  
+  #include "sum_and_output.hh" // Custom header for function declarations
+  
+  namespace mpi // Encapsulate MPI-related functions in a namespace
   {
-    int rank; // Variable to store the rank of the current process
-    MPI_Comm_rank (MPI_COMM_WORLD, &rank); // Get the rank of the current process
-
-    double total (0.); // Initialize the total sum
-    // Perform reduction to sum all local integrals and store the result in the root process
-    MPI_Reduce (&local_integral, &total, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
-
-    // If the current process is the root (rank 0), print the results
-    if (rank == 0)
-      {
-        out << "n = " << n << ", a = " << a << ", b = " << b
-            << ", integral = " << total << std::endl;
-      }
+    // Function to compute the sum of partial integrals and print the result
+    void sum_and_print (double local_integral, std::ostream & out,
+                        double a, double b, unsigned n)
+    {
+      int rank; // Variable to store the rank of the current process
+      MPI_Comm_rank (MPI_COMM_WORLD, &rank); // Get the rank of the current process
+  
+      double total (0.); // Initialize the total sum
+      // Perform reduction to sum all local integrals and store the result in the root process
+      MPI_Reduce (&local_integral, &total, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+  
+      // If the current process is the root (rank 0), print the results
+      if (rank == 0)
+        {
+          out << "n = " << n << ", a = " << a << ", b = " << b
+              << ", integral = " << total << std::endl;
+        }
+    }
   }
-}
 
 
 
