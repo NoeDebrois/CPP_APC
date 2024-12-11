@@ -210,6 +210,8 @@ We want to divide the intermediate computations of trapezoid areas into differen
         }
       }  
     ```
+  - To compile with P2P : `mpicxx -o reduce --std=c++23 with_io.cc quadrature.cc p2p_input.cc p2p_output.cc` ;
+  - To compile with Broadcast : `mpicxx -o reduce --std=c++23 with_io.cc quadrature.cc bcast.cc p2p_output.cc`.
 
 
 
