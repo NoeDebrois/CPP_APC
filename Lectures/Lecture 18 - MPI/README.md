@@ -226,6 +226,13 @@ We want to divide the intermediate computations of trapezoid areas into differen
     // Perform reduction to sum up partial values
     MPI_Reduce(&local_partial, &total, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
     ```
+  - What it does in a simple example :
+    | Rank | `local_partial` | `total` |
+    |--------|------|--------|
+    | 0 | 1 | 10 |
+    | 1 | 2 | N/A |
+    | 2 | 3 | N/A |
+    | 3 | 4 | N/A |
 
 
 
