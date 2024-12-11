@@ -264,7 +264,15 @@ We want to divide the intermediate computations of trapezoid areas into differen
         }
     }
   }
-
+  ```
+- By using a `count` argument greater than 1, `MPI_Reduce` can operate on arrays instead of scalars ;
+  - The following code could thus be used to add a collection of N-dimensional vectors :
+    ```cpp
+    std::vector<double> local_x (N), sum (N) ;
+    /* Partial computation on local_x :*/
+    MPI_Reduce(local_x.data (), sum.data (), N, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+    // Where .data () returns the pointer to the vector elements.
+    ```
 
 
 
