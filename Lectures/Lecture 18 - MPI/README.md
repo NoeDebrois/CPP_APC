@@ -171,6 +171,20 @@ We want to divide the intermediate computations of trapezoid areas into differen
 - Let's discover **collective routines**.
 
 ### Collective routines :
+- Involve all the processes in a communicator ;
+- Only transmit predefined MPI data types ;
+- Cannot use tgas to identify messages ;
+- **Warning!** Be sure that every process in the communicator calls the **same** collective function to avoid deadlocks.
+
+### `Broadcast` :
+- Usage: `int MPI_Bcast(void *buffer, int count, MPI_Datatype datatype, int root, MPI_Comm comm)`
+  - Delivers an exact copy of the data in `buffer` from `root` to all the processes in `comm` ;
+  - | Rank | `buffer` Before | `buffer` After |
+    |--------|------|--------|
+    | 0 | A | A |
+    | 1 | ? | A |
+    | 2 | ? | A |
+    | 3 | ? | A | 
 
 
 
