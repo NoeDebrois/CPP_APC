@@ -216,6 +216,7 @@ We want to divide the intermediate computations of trapezoid areas into differen
     - Instead we want to *split the final sum work* : this is what `MPI_Reduce` does ! cf the following picture.
     ![](IMG_Sum_Work.jpeg)
 
+### `Reduce` :
 
 
 
