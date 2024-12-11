@@ -274,6 +274,9 @@ We want to divide the intermediate computations of trapezoid areas into differen
     // Where .data () returns the pointer to the vector elements.
     ```
 
+### `MPI_Allreduce` :
+- slide 19/45 of MPI B.
+
 
 
 
