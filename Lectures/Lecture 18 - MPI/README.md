@@ -232,7 +232,7 @@ We want to divide the intermediate computations of trapezoid areas into differen
     | 0 | 1 | 10 |
     | 1 | 2 | N/A |
     | 2 | 3 | N/A |
-    | 3 | 4 | N/A |
+    | 3 |4 | N/A |
 
 
 
