@@ -179,7 +179,7 @@ We want to divide the intermediate computations of trapezoid areas into differen
 ### `Broadcast` :
 - Usage: `int MPI_Bcast(void *buffer, int count, MPI_Datatype datatype, int root, MPI_Comm comm)`
   - Delivers an exact copy of the data in `buffer` from `root` to all the processes in `comm` ;
-  - | Rank | `buffer` Before | `buffer` After |
+  - Simple example : | Rank | `buffer` Before | `buffer` After |
     |--------|------|--------|
     | 0 | A | A |
     | 1 | ? | A |
