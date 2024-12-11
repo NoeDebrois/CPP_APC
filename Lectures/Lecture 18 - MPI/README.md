@@ -242,14 +242,12 @@ We want to divide the intermediate computations of trapezoid areas into differen
 - Example: `mpi::sum_and_print` function demonstrates how to aggregate partial results from multiple processes and output the result in the root process.
   ```cpp
   #include <mpi.h> // Include the MPI library
-  
   #include "sum_and_output.hh" // Custom header for function declarations
   
   namespace mpi // Encapsulate MPI-related functions in a namespace
   {
     // Function to compute the sum of partial integrals and print the result
-    void sum_and_print (double local_integral, std::ostream & out,
-                        double a, double b, unsigned n)
+    void sum_and_print (double local_integral, std::ostream & out, double a, double b, unsigned n)
     {
       int rank; // Variable to store the rank of the current process
       MPI_Comm_rank (MPI_COMM_WORLD, &rank); // Get the rank of the current process
