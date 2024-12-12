@@ -344,6 +344,30 @@ We want to divide the intermediate computations of trapezoid areas into differen
   - Clearly `MPI_Scatter` is the implementation of **block partitioning**.
 - Example `read_vector` :
   ```cpp
-  std::vector<double>
+  std::vector<double> read_vector(unsigned n, std::string const & name, MPI_Comm const & comm)
+  {
+  int rank, size; // Attribute a rank and a size for the processes in comm.
+  MPI_Comm_rank(comm, &rank);
+  MPI_Comm_size(comm, &size);
+
+  const unsigned local_n = n / size;
+  std::vector<double> result (local_n) // Very important !
+
+  if (rank == 0)
+    {
+      std::vector<double> input(n);
+      std::cout << "Enter " << name << "\n"; 
+      for (double & e : input) // Ask for n coefficients (n is an argument).
+        std::cin >> e; // Input the coefficients of the vector.
+
+      MPI_Scatter(input.data (), local_n, MPI_DOUBLE, result.data (), local_n, MPI_DOUBLE, 0, comm);
+    }
+  else
+    {
+      /* Here are only receiveing processes (ranks), no need for the send buffer. */
+      MPI_Scatter (nullptr, local_n, MPI_DOUBLE, result.data (), local_n, MPI_DOUBLE, 0, comm);
+    }
+  return result;
+  }
   ```
   Slide 32/45.
