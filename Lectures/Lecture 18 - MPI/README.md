@@ -310,3 +310,15 @@ We want to divide the intermediate computations of trapezoid areas into differen
   | 2 | 2-5-8-11 |
   - This is called **cyclic partition**.
     - Cyclic partitioning is used when data source is already available across all processes. We don't need any assumptions on the number of elements to be processed.
+   
+### Block partitioning (data distributions) :
+- Each process will have `local_n` components of the vectors and, in order to save on storage, we can just store these on each process as a vector of `local_n` elements.
+  ```cpp
+  vector<double> parallel_sum (const vector<double> & local_x, const vector<double> & local_y)
+  {
+  vector<double> local_z(local_x.size()); // Initialization of the "local" z vector.
+  for (size_t i = 0; i < local_x.size(); i++)
+      local_z[i] = local_x[i] + local_y[i];
+  return local_z;
+  }
+  ```
