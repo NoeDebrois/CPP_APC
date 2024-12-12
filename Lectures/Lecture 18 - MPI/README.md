@@ -376,4 +376,18 @@ We want to divide the intermediate computations of trapezoid areas into differen
   return result;
   }
   ```
+
+  #### `MPI_Gather`
+  - Usage: `int MPI_Gather(const void *sendbuf, int sendcount, MPI_Datatype sendtype, void *recvbuf, int recvcount, MPI_Datatype recvtype, int root, MPI_Comm comm)`
+    - It joins portions of data in `sendbuf` from all the processes in `comm` to `root`, storing them all in `recvbuf` ;
+    - `recvcount` values received from each process.
+    - Simple example where rank 0 is the root :
+      | Rank | `sendbuf` | `recvbuf` |
+      |--------|------|--------|
+      | 0 | AB | ABCDEFGH |
+      | 1 | CD | N/A |
+      | 2 | EF | N/A |
+      | 3 |GH |N/A |
+
+
   Slide 32/45.
