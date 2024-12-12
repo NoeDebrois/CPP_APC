@@ -373,7 +373,8 @@ We want to divide the intermediate computations of trapezoid areas into differen
       // Each non-root process receives a chunk of local_n elements from the vector input (owned by the
       // root process) into its result vector.
     }
-  return result;
+  return result; // The return result only provides the local portion of the data (result) to the calling
+  // code on that specific process.
   }
   ```
 
