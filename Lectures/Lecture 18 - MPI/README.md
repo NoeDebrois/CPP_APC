@@ -341,3 +341,4 @@ We want to divide the intermediate computations of trapezoid areas into differen
   | 1 | N/A | CD |
   | 2 | N/A | EF |
   | 3 |N/A |GH |
+  - Clearly `MPI_Scatter` is the implementation of **block partitioning**.
