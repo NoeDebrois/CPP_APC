@@ -275,7 +275,9 @@ We want to divide the intermediate computations of trapezoid areas into differen
     ```
 
 ### `MPI_Allreduce` :
-- slide 19/45 of MPI B.
+- When all the processes need the result of a global sum to compute some larger computation (instead of only one process which prints the result like in the previous example) ;
+- Usage: `int MPI_Allreduce(const void *sendbuf, void *recvbuf, int count, MPI_Datatype datatype, MPI_Op op, MPI_Comm comm)`
+  - It's a variant of `MPI_Reduce` but which stores the result on all the processes in the communicator.
 
 
 
