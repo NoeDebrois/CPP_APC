@@ -361,11 +361,14 @@ We want to divide the intermediate computations of trapezoid areas into differen
         std::cin >> e; // Input the coefficients of the vector.
 
       MPI_Scatter(input.data (), local_n, MPI_DOUBLE, result.data (), local_n, MPI_DOUBLE, 0, comm);
+      // The root process (rank 0) splits the vector input into chunks and sends each chunk to the corresponding process (including itself).
     }
   else
     {
       /* Here are only receiveing processes (ranks), no need for the send buffer. */
       MPI_Scatter (nullptr, local_n, MPI_DOUBLE, result.data (), local_n, MPI_DOUBLE, 0, comm);
+      // The non-root processes only receive their respective chunk of the data; they do not send any data : that's why there is nullptr in sendbuf.
+      // Each non-root process receives a chunk of local_n elements from the vector input (owned by the root process) into its result vector.
     }
   return result;
   }
