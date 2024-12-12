@@ -319,8 +319,9 @@ We want to divide the intermediate computations of trapezoid areas into differen
   vector<double> local_z(local_x.size()); // Initialization of the "local" z vector.
   for (size_t i = 0; i < local_x.size(); i++)
       {
-      local_z[i] = local_x[i] + local_y[i];
+      local_z[i] = local_x[i] + local_y[i]; // Compute the "local" vector sum.
       }
   return local_z;
   }
   ```
+  - We only store local_x and local_y, not the full x and y, on each process.
