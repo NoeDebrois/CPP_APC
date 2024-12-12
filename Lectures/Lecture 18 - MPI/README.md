@@ -378,17 +378,41 @@ We want to divide the intermediate computations of trapezoid areas into differen
   }
   ```
 
-  #### `MPI_Gather`
-  - Usage: `int MPI_Gather(const void *sendbuf, int sendcount, MPI_Datatype sendtype, void *recvbuf, int recvcount, MPI_Datatype recvtype, int root, MPI_Comm comm)`
-    - It joins portions of data in `sendbuf` from all the processes in `comm` to `root`, storing them all in `recvbuf` ;
-    - `recvcount` values received from each process.
-    - Simple example where rank 0 is the root :
-      | Rank | `sendbuf` | `recvbuf` |
-      |--------|------|--------|
-      | 0 | AB | ABCDEFGH |
-      | 1 | CD | N/A |
-      | 2 | EF | N/A |
-      | 3 |GH |N/A |
+#### `MPI_Gather`
+- Usage: `int MPI_Gather(const void *sendbuf, int sendcount, MPI_Datatype sendtype, void *recvbuf, int recvcount, MPI_Datatype recvtype, int root, MPI_Comm comm)`
+  - It joins portions of data in `sendbuf` from all the processes in `comm` to `root`, storing them all in `recvbuf` ;
+  - `recvcount` values received from each process.
+  - Simple example where rank 0 is the root :
+    | Rank | `sendbuf` | `recvbuf` |
+    |--------|------|--------|
+    | 0 | AB | ABCDEFGH |
+    | 1 | CD | N/A |
+    | 2 | EF | N/A |
+    | 3 |GH |N/A |
+- Example `print_vector` :
+  ```cpp
+  void print_vector(vector<double> const & local_v, unsigned n, string const & title, MPI_Comm const & comm)
+  {
+  int rank, size;
+  MPI_Comm_rank(comm, &rank);
+  MPI_Comm_size(comm, &size);
 
+  const unsigned local_n = local_v.size ();
 
-  Slide 32/45.
+  if (rank > 0)
+    { // all the non-zero ranks send their part...
+      /* Here are only sending ranks, no need for receiving buffer */
+      MPI_Gather(local_v.data (), local_n, MPI_DOUBLE, nullptr, local_n, MPI_DOUBLE, 0, comm); // Receive nothing, hence "nullptr".
+    }
+  else 
+    { // rank 0 receives everything...
+      std::vector<double> global (n);
+      MPI_Gather(local_v.data (), local_n, MPI_DOUBLE, global.data (), local_n, MPI_DOUBLE, 0, comm); // Rank 0 has also to send its part
+      // Hence the sendbuf !
+      std::cout << title << "\n";
+      for (double value : global)
+        std::cout << value << " "; // Reads all the value from the vector.
+      std::cout << std::endl; 
+    }
+  }
+  ```
