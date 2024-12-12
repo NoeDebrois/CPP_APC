@@ -291,6 +291,12 @@ We want to divide the intermediate computations of trapezoid areas into differen
 - **WARNING!** It is **illegal** in MPI to try to use the same buffer for input and output like this `MPI_Reduce(&x, &x, 1, MPI_DOUBLE, MPI_SUM, 0, comm)` ;
   - Don't do that! Instead, call : `MPI_Reduce(MPI_IN_PLACE, &x, 1, MPI_DOUBLE, MPI_SUM, 0, comm);`.
 
-
-
-
+### Working with vectors : *scatter & gather*
+- Suppose we want to write a parallel function that computes a vector sum: x + y = (x_0 + y_0, ..., x_{n-1} + y_{n-1}) = z ;
+- If the *number of component is n*, and we have *comm_sz cores or processes*, let's assume that n evenly divides comm_sz, we can define local_n = n / comm_sz ;
+- We can parallelize the sum by assigning blocks of local_n consecutive components to each or our comm_sz processes :
+  | Process | Block |
+  |---------|-------|
+  | 0 | 0-1-2-3 | 
+  | 1 | 4-5-6-7 | 
+  | 2 | 8-9-10-11 | 
