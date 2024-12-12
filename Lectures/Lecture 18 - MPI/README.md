@@ -279,6 +279,15 @@ We want to divide the intermediate computations of trapezoid areas into differen
 - Usage: `int MPI_Allreduce(const void *sendbuf, void *recvbuf, int count, MPI_Datatype datatype, MPI_Op op, MPI_Comm comm)`
   - It's a variant of `MPI_Reduce` but which stores the result on all the processes in the communicator.
 
+### `MPI_IN_PLACE` :
+- Collective communication routine generally use both a send and receive *buffer* ;
+  - When dealing with a lot of data it means occupying a lot of memory !
+- MPI provides a special placeholder `MPI_IN_PLACE` to **enable the use of a SINGLE buffer for both input and output** ;
+- Usage:
+  ```c++
+  double minimum (local_min);
+  MPI_Allreduce(MPI_IN_PLACE, &minimum, 1, MPI_DOUBLE, MPI_MIN, MPI_COMM_WORLD);
+  ```
 
 
 
