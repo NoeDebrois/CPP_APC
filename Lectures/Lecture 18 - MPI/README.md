@@ -346,3 +346,4 @@ We want to divide the intermediate computations of trapezoid areas into differen
   ```cpp
   std::vector<double>
   ```
+  Slide 32/45.
