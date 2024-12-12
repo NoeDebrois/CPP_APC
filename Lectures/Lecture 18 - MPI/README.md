@@ -325,3 +325,7 @@ We want to divide the intermediate computations of trapezoid areas into differen
   }
   ```
   - We only store local_x and local_y, not the full x and y, on each process.
+- To implement our vector addition function, we need :
+  - To read the dimension of the vectors : process 0 can prompt the user, read the dimension, and broadcast the dimension to the other processes ;
+  - To read the vectors x and y : process 0 reads them (no other option) and sends the *needed components* to each of the other processes ;
+  - This is exactly what `MPI_Scatter` implements ! (**block partition scheme**).
