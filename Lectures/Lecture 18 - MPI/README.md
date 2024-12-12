@@ -301,9 +301,12 @@ We want to divide the intermediate computations of trapezoid areas into differen
   | 1 | 4-5-6-7 | 
   | 2 | 8-9-10-11 |
   - This is called **block partition**.
+    - Block partitioning is used when data source is available on a single process. We have a primitive for this (`MPI_Scatter`).
 - Or we can also parallelize by assigning components in a round fashion :
   | Process | Cyclic |
   |---------|-------|
   | 0 | 0-3-6-9 | 
   | 1 | 1-4-7-10 | 
   | 2 | 2-5-8-11 |
+  - This is called **cyclic partition**.
+    - Cyclic partitioning is used when data source is already available across all processes. We don't need any assumptions on the number of elements to be processed.
