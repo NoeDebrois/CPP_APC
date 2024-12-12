@@ -329,3 +329,15 @@ We want to divide the intermediate computations of trapezoid areas into differen
   - To read the dimension of the vectors : process 0 can prompt the user, read the dimension, and broadcast the dimension to the other processes ;
   - To read the vectors x and y : process 0 reads them (no other option) and sends the *needed components* to each of the other processes ;
   - This is exactly what `MPI_Scatter` implements ! (**block partition scheme**).
+
+#### `MPI_Scatter`
+- Usage: `int MPI_Scatter(const void *sendbuf, int sendcount, MPI_Datatype sendtype, void *recvbuf, int recvcount, MPI_Datatype recvtype, int root, MPI_Comm comm)` ;
+  - Sends a portion of the data in `sendbuf` from `root` to all the processes in `comm`, storing it in `recvbuf`;
+  - `sendbuf` holds `sendcount * size` (i.e `sendcount` is the number of elements sent to individual processes) ;
+- Simple example where rank 0 is the root :
+  | Rank | `sendbuf` | `recvbuf` |
+  |--------|------|--------|
+  | 0 | ABCDEFGH | AB |
+  | 1 | N/A | CD |
+  | 2 | N/A | EF |
+  | 3 |N/A |GH |
