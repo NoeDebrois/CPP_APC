@@ -422,3 +422,5 @@ We want to divide the intermediate computations of trapezoid areas into differen
 - All the processes in the communicator must call the same collective function : if a program attempts to match a call to `MPI_Reduce` on one process with a call to `MPI_Recv` on another process, the program will **hang** or **crash**.
 - The arguments passed by each process to an MPI collective communication must be "compatible" : if one process passes 0 as the dest process and another passes 1, then the program will **hang** or **crash**.
 - The `recvbuf` argument is **only used** on `dest` process. However, for `send` processes, you have to pass something, therefore you pass `nullptr`.
+- Point-to-point (P2P) communications are matched based on tags and communicators. Collective communications don't use tags, so they're matched solely based on the communicator and the order in which they're called.
+- 
