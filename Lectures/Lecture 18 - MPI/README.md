@@ -288,7 +288,7 @@ We want to divide the intermediate computations of trapezoid areas into differen
   double minimum (local_min);
   MPI_Allreduce(MPI_IN_PLACE, &minimum, 1, MPI_DOUBLE, MPI_MIN, MPI_COMM_WORLD);
   ```
-
+- **WARNING!** It is illegal in MPI to try to use the same buffer for input and output like this `MPI_Reduce(&x, &x, 1, MPI_DOUBLE, MPI_SUM, 0, comm)`.
 
 
 
