@@ -402,13 +402,14 @@ We want to divide the intermediate computations of trapezoid areas into differen
   if (rank > 0)
     { // all the non-zero ranks send their part...
       /* Here are only sending ranks, no need for receiving buffer */
-      MPI_Gather(local_v.data (), local_n, MPI_DOUBLE, nullptr, local_n, MPI_DOUBLE, 0, comm); // Receive nothing, hence "nullptr".
+      MPI_Gather(local_v.data (), local_n, MPI_DOUBLE, nullptr, local_n, MPI_DOUBLE, 0, comm);
+      // Receive nothing, hence "nullptr".
     }
   else 
     { // rank 0 receives everything...
       std::vector<double> global (n);
-      MPI_Gather(local_v.data (), local_n, MPI_DOUBLE, global.data (), local_n, MPI_DOUBLE, 0, comm); // Rank 0 has also to send its part
-      // Hence the sendbuf !
+      MPI_Gather(local_v.data (), local_n, MPI_DOUBLE, global.data (), local_n, MPI_DOUBLE, 0, comm);
+      // Rank 0 has also to send its part. Hence the sendbuf !
       std::cout << title << "\n";
       for (double value : global)
         std::cout << value << " "; // Reads all the value from the vector.
