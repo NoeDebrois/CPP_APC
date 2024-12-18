@@ -3,4 +3,5 @@ project(TE23062020Initial)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(TE23062020Initial main.cpp)
+add_executable(TE23062020Initial main.cpp
+        main_initial.cc)
