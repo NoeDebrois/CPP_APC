@@ -30,28 +30,28 @@ int main (int argc, char *argv[])
   {
     std::cout << "Please, insert the Caesar number: ";
     std::cin >> key;
-  }
+  } // At that time all ranks except 0 have key = 0 and empty string sentence.
 
-  // communicate the key to all ranks
+  // 1) Communicate the key to all ranks
   MPI_Bcast(&key, 1, MPI_UNSIGNED, 0, MPI_COMM_WORLD);
 
-  // communicate the sentence length to all ranks
+  // 2) Communicate the sentence length to all ranks
   unsigned sentence_length = sentence.size();
   MPI_Bcast(&sentence_length, 1, MPI_UNSIGNED, 0, MPI_COMM_WORLD);
 
-  // compute the local sentence length
+  // 3) Compute the local sentence length
   unsigned local_sentence_length = sentence_length / size;
 
-  // initialize the local sentence
+  // 4) Initialize the local sentence
   std::string local_sentence(local_sentence_length, 'x');
   MPI_Scatter(&sentence[0], local_sentence_length, MPI_CHAR, 
                     &local_sentence[0], local_sentence_length, MPI_CHAR, 
                     0, MPI_COMM_WORLD);
 
-  // compute the new local sentence
+  // 5) Compute the new local sentence
   std::string new_local_sentence = caesar(local_sentence, key, is_encrypted);
 
-  // gather results
+  // 6) Gather results
   std::string new_sentence(sentence_length, 'x');
   MPI_Gather(&new_local_sentence[0], local_sentence_length, MPI_CHAR, 
                     &new_sentence[0], local_sentence_length, MPI_CHAR, 

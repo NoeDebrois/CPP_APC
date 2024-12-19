@@ -1,0 +1,3 @@
+/Users/noedebrois/CLionProjects/CPP_APC/Labs/Lab5_MPI/cmake-build-debug/CMakeFiles/Lab5_MPI.dir
+/Users/noedebrois/CLionProjects/CPP_APC/Labs/Lab5_MPI/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/noedebrois/CLionProjects/CPP_APC/Labs/Lab5_MPI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
