@@ -1,0 +1,6 @@
+# ninja log v6
+0	678	1734689501701455923	CMakeFiles/particles.dir/main.cpp.o	d974226b00f5dcb5
+3	510	1734689546140381851	CMakeFiles/particles.dir/Vector2D.cpp.o	3d34cfc506ab7bc0
+2	516	1734689546139432895	CMakeFiles/particles.dir/Particle.cpp.o	320d8ac1c1b6bd8f
+3	582	1734689546140212734	CMakeFiles/particles.dir/Simulator.cpp.o	889fd10bcf98f4e7
+582	705	1734689546718804926	particles	5dabcd958c54fc3e
