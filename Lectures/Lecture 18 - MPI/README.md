@@ -310,7 +310,7 @@ We want to divide the intermediate computations of trapezoid areas into differen
   | 2 | 2-5-8-11 |
   - This is called **cyclic partition**.
     - Cyclic partitioning is used when data source is already available across all processes. We don't need any assumptions on the number of elements to be processed.
-    - *WARNING!* No Gather/AllGather/Scatter/AllScatter when using cyclic partitioning !!
+    - **WARNING!** No Gather/AllGather/Scatter/AllScatter when using cyclic partitioning !! cf last exercise session (20).
    
 ### Block partitioning (data distributions) :
 - Each process will have `local_n` components of the vectors and, in order to save on storage, we can just store these on each process as a vector of `local_n` elements.
