@@ -1,0 +1,3 @@
+/Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise Session 20 - 20:12:2024/exercise-mpi-solution/cmake-build-debug/CMakeFiles/exercise_mpi_solution.dir
+/Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise Session 20 - 20:12:2024/exercise-mpi-solution/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/noedebrois/CLionProjects/CPP_APC/Exercises/Exercise Session 20 - 20:12:2024/exercise-mpi-solution/cmake-build-debug/CMakeFiles/rebuild_cache.dir
